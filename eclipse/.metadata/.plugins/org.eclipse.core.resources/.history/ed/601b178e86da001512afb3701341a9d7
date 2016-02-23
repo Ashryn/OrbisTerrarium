@@ -1,0 +1,16 @@
+[
+{
+  "modid": "orbis",
+  "name": "Orbis Terrarum",
+  "description": "Classic modded world gen and other neat utilities",
+  "version": "ALPHA: 0.1",
+  "mcversion": "1.8.9",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["LyraKitsune - AKA Ashryn"],
+  "credits": "Forge Team for making Forge, SkullyGamingMC - For making textures and being a tremendous help",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

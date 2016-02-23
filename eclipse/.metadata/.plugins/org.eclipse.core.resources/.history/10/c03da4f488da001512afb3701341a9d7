@@ -1,0 +1,12 @@
+package com.lyrakitsune.orbis.main;
+
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.common.SidedProxy;
+
+@Mod(modid = Lib.MOD_ID, name = Lib.MOD_NAME, version = Lib.VERSION)
+public class Orbis {
+
+	@SidedProxy(clientSide = Lib.CLIENT_PROXY, serverSide = Lib.SERVER_PROXY)
+	public static CommonProxy proxy;
+
+}

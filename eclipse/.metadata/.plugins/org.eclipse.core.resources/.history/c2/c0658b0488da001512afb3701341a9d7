@@ -1,0 +1,5 @@
+package com.lyrakitsune.orbis.proxy;
+
+public class ClientProxy {
+
+}

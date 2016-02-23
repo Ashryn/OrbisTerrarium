@@ -1,0 +1,10 @@
+package com.lyrakitsune.orbis.main;
+
+import net.minecraftforge.fml.common.Mod;
+
+@Mod(modid = Lib.MOD_ID, name = Lib.MOD_NAME, version = Lib.VERSION)
+public class Orbis {
+
+	
+
+}
