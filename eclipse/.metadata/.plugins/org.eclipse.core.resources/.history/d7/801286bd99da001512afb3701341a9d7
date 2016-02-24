@@ -1,0 +1,7 @@
+package com.lyrakitsune.orbis.items;
+
+import net.minecraft.item.Item;
+
+public class ingotCopper extends Item {
+
+}

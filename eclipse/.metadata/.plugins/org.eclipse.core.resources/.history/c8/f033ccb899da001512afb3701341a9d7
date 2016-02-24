@@ -1,0 +1,43 @@
+package com.lyrakitsune.orbis.registry;
+
+import com.lyrakitsune.orbis.items.ingotCopper;
+import com.lyrakitsune.orbis.main.Orbis;
+
+import net.minecraft.item.Item;
+
+public class Metals {
+	
+	//Raw Ingots
+	public static Item ingotCopper;
+	public static Item ingotTin;
+	public static Item ingotZinc;
+	public static Item ingotLead;
+	public static Item ingotNickle;
+	public static Item ingotSilver;
+	
+	//UnShinies
+	public static Item dustNikolite;
+	public static Item dustKhaled;
+	public static Item surfaceQuartz;
+	public static Item chunkUranium;
+	
+	//Gems
+	public static Item gemRuby;
+	public static Item gemSapphire;
+	public static Item gemJade;
+	
+	//Alloys
+	public static Item alloySteel;
+	public static Item alloyBronze;
+	public static Item alloyBrass;
+	public static Item alloyInvar;
+	public static Item alloyElectrum;
+	public static Item alloyNano;
+	public static Item alloyYummy;
+	
+	
+	public static void inut()
+	{
+		ingotCopper = new ingotCopper().setUnlocalizedName("ingotCopper").setCreativeTab(Orbis.tabOrbis);
+	}
+}
